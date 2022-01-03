@@ -3,3 +3,7 @@ body{
   background-color: #274472;
   /*overflow-x: hidden;*/
 }
+
+body::-webkit-scrollbar{
+  display: none;
+}
