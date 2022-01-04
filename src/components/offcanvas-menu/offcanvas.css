@@ -1,0 +1,33 @@
+.offcanvas-menu {
+  width: 300px;
+  height: 100vh;
+  background-color: #C3E0E5;
+  position: fixed;
+  top: 0;
+  right: -300px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+.offcanvas-menu.active {
+  right: 0;
+}
+.offcanvas-menu #nav-links {
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+}
+.offcanvas-menu #nav-links a {
+  padding: 10px 0;
+  font-size: 3rem;
+  text-decoration: none;
+  color: black;
+}
+.offcanvas-menu #nav-links a:hover {
+  color: white;
+  text-shadow: black;
+}
+
+/*# sourceMappingURL=offcanvas.css.map */
