@@ -1,3 +1,30 @@
-
+.about {
+  background-color: #5885AF;
+}
+.about .info-container {
+  display: flex;
+  flex-direction: column;
+}
+.about .info-container .info-line {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.about .info-container .info-line p {
+  margin: 0;
+}
+.about .info-container .info-line a {
+  text-decoration: none;
+  color: black;
+}
+.about .info-container .info-line a:hover {
+  color: white;
+  text-shadow: black;
+}
+.about .info-container .info-line .icon {
+  font-size: 35px;
+  padding: 0 5px;
+}
 
 /*# sourceMappingURL=about.css.map */

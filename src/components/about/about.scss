@@ -1,3 +1,35 @@
 .about {
+  background-color: #5885AF;
 
+  .info-container {
+    display: flex;
+    flex-direction: column;
+
+    .info-line {
+      font-size: 2rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      p {
+        margin: 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      a:hover {
+        color: white;
+        text-shadow: black;
+      }
+
+      .icon {
+        font-size: 35px;
+        padding: 0 5px;
+      }
+    }
+
+  }
 }
