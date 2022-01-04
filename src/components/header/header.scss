@@ -35,6 +35,11 @@
       text-decoration: none;
       font-size: 2.3rem;
     }
+
+    a:hover {
+      color: white;
+      text-shadow: black;
+    }
   }
   &.active {
 

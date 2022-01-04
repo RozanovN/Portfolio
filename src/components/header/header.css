@@ -34,6 +34,10 @@
   text-decoration: none;
   font-size: 2.3rem;
 }
+.header .wrapper a:hover {
+  color: white;
+  text-shadow: black;
+}
 .header.active .hamburger-menu span:first-child {
   transform: rotate(45deg);
 }
