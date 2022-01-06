@@ -4,7 +4,8 @@ export default function Header({menuOpen, setMenuOpen}) {
   return (
     <div className={"header " + (menuOpen && "active") } id="header">
       <div className="wrapper">
-        <div id="website-name">
+        <div id="name-and-logo">
+          <img id="logo" src="assets/logo.svg" alt="logo"/>
           <a href="#welcome">Portfolio</a>
         </div>
         <div id="nav-links">

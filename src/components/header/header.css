@@ -7,14 +7,23 @@
   z-index: 2;
 }
 .header .wrapper {
-  padding: 15px 30px;
+  padding: 0 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.header .wrapper .hamburger-menu {
+.header .wrapper #name-and-logo {
   display: flex;
+  align-items: center;
+}
+.header .wrapper #name-and-logo #logo {
+  height: 64px;
+  width: 64px;
+  margin-left: 10px;
+}
+.header .wrapper .hamburger-menu {
+  display: none;
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
@@ -29,7 +38,7 @@
   transition: all 0.5s ease;
 }
 .header .wrapper a {
-  padding: 10px 15px;
+  padding: 0 15px;
   color: black;
   text-decoration: none;
   font-size: 2.3rem;
